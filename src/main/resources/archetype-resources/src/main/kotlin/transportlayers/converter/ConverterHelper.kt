@@ -1,7 +1,7 @@
-package "\${groupId}".transportlayers.converter
+package ${packageId}.transportlayers.converter
 
-import "\${groupId}".entities.GitRepo
-import "\${groupId}".transportlayers.data.response.Repository
+import ${packageId}.entities.GitRepo
+import ${packageId}.transportlayers.data.response.Repository
 
 fun GitRepo.convertToDTO() = Repository(
     name = this.name,

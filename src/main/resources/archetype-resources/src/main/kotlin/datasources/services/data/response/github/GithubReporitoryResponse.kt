@@ -1,4 +1,4 @@
-package "\${groupId}".datasources.services.data.response.github
+package ${packageId}.datasources.services.data.response.github
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

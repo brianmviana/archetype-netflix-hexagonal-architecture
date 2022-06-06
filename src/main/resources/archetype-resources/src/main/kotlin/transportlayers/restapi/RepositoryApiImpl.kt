@@ -1,8 +1,8 @@
-package "\${groupId}".transportlayers.restapi
+package ${packageId}.transportlayers.restapi
 
-import "\${groupId}".interactors.GetGitRepositoryByOwnerUseCase
-import "\${groupId}".transportlayers.converter.convertToDTO
-import "\${groupId}".transportlayers.data.response.Repository
+import ${packageId}.interactors.GetGitRepositoryByOwnerUseCase
+import ${packageId}.transportlayers.converter.convertToDTO
+import ${packageId}.transportlayers.data.response.Repository
 import io.swagger.annotations.Api
 import io.swagger.v3.oas.annotations.Operation
 import io.swagger.v3.oas.annotations.Parameter
@@ -20,7 +20,7 @@ import javax.validation.constraints.NotNull
 
 @RestController
 @Validated
-@RequestMapping("\${api.base-path:}")
+@RequestMapping("${'api.base-path:'}")
 @Api(tags = ["Repositories"])
 class RepositoryApiImpl(val getGitRepositoryByOwnerUseCase: GetGitRepositoryByOwnerUseCase) {
 

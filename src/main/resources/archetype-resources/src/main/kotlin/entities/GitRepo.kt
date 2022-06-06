@@ -1,4 +1,4 @@
-package "\${groupId}".entities
+package ${packageId}.entities
 
 data class GitRepo (
     val name: String,

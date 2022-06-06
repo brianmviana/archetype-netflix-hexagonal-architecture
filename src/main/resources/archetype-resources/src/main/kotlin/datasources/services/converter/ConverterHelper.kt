@@ -1,8 +1,8 @@
-package "\${groupId}".datasources.services.converter
+package ${packageId}.datasources.services.converter
 
-import "\${groupId}".datasources.services.data.response.github.GithubReporitoryResponse
-import "\${groupId}".datasources.services.data.response.gitlab.GitlabProjectResponse
-import "\${groupId}".entities.GitRepo
+import ${packageId}.datasources.services.data.response.github.GithubReporitoryResponse
+import ${packageId}.datasources.services.data.response.gitlab.GitlabProjectResponse
+import ${packageId}.entities.GitRepo
 
 fun GithubReporitoryResponse.convertToModel() = GitRepo(
     name = this.name,

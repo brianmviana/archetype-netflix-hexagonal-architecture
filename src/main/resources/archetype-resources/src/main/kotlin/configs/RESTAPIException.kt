@@ -1,4 +1,4 @@
-package "\${groupId}".configs
+package ${packageId}.configs
 
 import org.springframework.http.HttpStatus
 import java.time.LocalDateTime

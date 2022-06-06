@@ -1,0 +1,58 @@
+<archetype-descriptor
+        xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0 https://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd"
+        name="quickstart">
+
+    <fileSets>
+        <fileSet encoding="UTF-8" filtered="true" packaged="true">
+            <directory>src/main/kotlin</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8" filtered="true">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+        <fileSet encoding="UTF-8" filtered="true" packaged="true">
+            <directory>src/test/kotlin</directory>
+            <includes>
+                <include>**/*.kt</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" packaged="false" encoding="UTF-8">
+            <directory/>
+            <includes>
+                <include>.gitignore</include>
+                <include>docker-compose.yml</include>
+                <include>Dockerfile</include>
+                <include>startup.sh</include>
+                <include>README.MD</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+
+    <requiredProperties>
+        <requiredProperty key="javaVersion">
+            <defaultValue>11</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="kotlinVersion">
+            <defaultValue>1.6.21</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="packageId">
+            <defaultValue>${groupId}</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
+
+<!--    <requiredProperties>-->
+<!--        <requiredProperty key="owner"/>-->
+<!--        <requiredProperty key="produto"/>-->
+<!--        <requiredProperty key="subproduto"/>-->
+<!--        <requiredProperty key="clusterName"/>-->
+<!--        <requiredProperty key="ecrName"/>-->
+<!--        <requiredProperty key="namespaceName"/>-->
+<!--    </requiredProperties>-->
+
+</archetype-descriptor>

@@ -1,4 +1,4 @@
-package "\${groupId}".datasources.services.data.response.github
+package ${packageId}.datasources.services.data.response.github
 
 data class GithubOwnerResponse(
     val gistsUrl: String? = "",

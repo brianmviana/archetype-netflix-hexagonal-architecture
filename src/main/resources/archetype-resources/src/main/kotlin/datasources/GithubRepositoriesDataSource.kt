@@ -1,12 +1,12 @@
-package "\${groupId}".datasources
+package ${packageId}.datasources
 
-import "\${groupId}".datasources.services.GithubRepositoriesClient
-import "\${groupId}".datasources.services.data.response.github.GithubReporitoryResponse
-import "\${groupId}".datasources.services.converter.convertToModel
-import "\${groupId}".entities.GitRepo
-import "\${groupId}".exceptions.InternalServerErrorException
-import "\${groupId}".exceptions.NotFoundException
-import "\${groupId}".repositories.GitRepoRepository
+import ${packageId}.datasources.services.GithubRepositoriesClient
+import ${packageId}.datasources.services.data.response.github.GithubReporitoryResponse
+import ${packageId}.datasources.services.converter.convertToModel
+import ${packageId}.entities.GitRepo
+import ${packageId}.exceptions.InternalServerErrorException
+import ${packageId}.exceptions.NotFoundException
+import ${packageId}.repositories.GitRepoRepository
 import feign.FeignException
 import org.springframework.context.annotation.Primary
 import org.springframework.stereotype.Component

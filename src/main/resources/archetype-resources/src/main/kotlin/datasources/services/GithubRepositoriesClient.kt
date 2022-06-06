@@ -1,6 +1,6 @@
-package "\${groupId}".datasources.services
+package ${packageId}.datasources.services
 
-import "\${groupId}".datasources.services.data.response.github.GithubReporitoryResponse
+import ${packageId}.datasources.services.data.response.github.GithubReporitoryResponse
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

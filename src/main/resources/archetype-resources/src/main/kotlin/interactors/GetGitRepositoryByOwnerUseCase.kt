@@ -1,7 +1,7 @@
-package "\${groupId}".interactors
+package ${packageId}.interactors
 
-import "\${groupId}".entities.GitRepo
-import "\${groupId}".repositories.GitRepoRepository
+import ${packageId}.entities.GitRepo
+import ${packageId}.repositories.GitRepoRepository
 import org.springframework.stereotype.Service
 
 @Service

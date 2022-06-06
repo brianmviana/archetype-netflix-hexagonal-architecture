@@ -1,7 +1,7 @@
-package "\${groupId}".datasources.services
+package ${packageId}.datasources.services
 
-import "\${groupId}".datasources.services.data.response.gitlab.GitlabProjectResponse
-import "\${groupId}".datasources.services.data.response.gitlab.GitlabUserResponse
+import ${packageId}.datasources.services.data.response.gitlab.GitlabProjectResponse
+import ${packageId}.datasources.services.data.response.gitlab.GitlabUserResponse
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable

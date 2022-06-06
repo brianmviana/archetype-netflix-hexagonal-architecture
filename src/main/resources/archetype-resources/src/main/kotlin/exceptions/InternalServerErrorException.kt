@@ -1,4 +1,4 @@
-package "\${groupId}".exceptions
+package ${packageId}.exceptions
 
 class InternalServerErrorException : RuntimeException {
 

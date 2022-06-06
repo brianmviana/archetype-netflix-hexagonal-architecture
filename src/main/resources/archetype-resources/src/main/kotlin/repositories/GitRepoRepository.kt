@@ -1,6 +1,6 @@
-package "\${groupId}".repositories
+package ${packageId}.repositories
 
-import "\${groupId}".entities.GitRepo
+import ${packageId}.entities.GitRepo
 
 interface GitRepoRepository {
 

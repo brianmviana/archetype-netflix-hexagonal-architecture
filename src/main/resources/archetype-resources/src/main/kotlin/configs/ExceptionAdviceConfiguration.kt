@@ -1,7 +1,7 @@
-package "\${groupId}".configs
+package ${packageId}.configs
 
-import "\${groupId}".exceptions.InternalServerErrorException
-import "\${groupId}".exceptions.NotFoundException
+import ${packageId}.exceptions.InternalServerErrorException
+import ${packageId}.exceptions.NotFoundException
 import org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR
 import org.springframework.http.HttpStatus.NOT_FOUND
 import org.springframework.http.ResponseEntity

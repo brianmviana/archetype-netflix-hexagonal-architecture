@@ -1,11 +1,11 @@
-package "\${groupId}".datasources
+package ${packageId}.datasources
 
-import "\${groupId}".datasources.services.GitlabProjectsClient
-import "\${groupId}".datasources.services.converter.convertToModel
-import "\${groupId}".datasources.services.data.response.gitlab.GitlabUserResponse
-import "\${groupId}".entities.GitRepo
-import "\${groupId}".exceptions.NotFoundException
-import "\${groupId}".repositories.GitRepoRepository
+import ${packageId}.datasources.services.GitlabProjectsClient
+import ${packageId}.datasources.services.converter.convertToModel
+import ${packageId}.datasources.services.data.response.gitlab.GitlabUserResponse
+import ${packageId}.entities.GitRepo
+import ${packageId}.exceptions.NotFoundException
+import ${packageId}.repositories.GitRepoRepository
 import org.springframework.stereotype.Component
 
 @Component

@@ -1,4 +1,4 @@
-package "\${groupId}".configs
+package ${packageId}.configs
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
